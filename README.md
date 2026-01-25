@@ -1,10 +1,8 @@
-[Jap App](https://james-bonaguro.github.io/Japan.html)
-
 Japan 2026 Family Dashboard
 
 🔗 Live Site
 
-[LINK GOES HERE ONCE GENERATED] (e.g., https://www.google.com/search?q=https://yourusername.github.io/japan-trip)
+[Jap App](https://james-bonaguro.github.io/Japan.html)
 
 🚀 How to Launch This (First Time Setup)
 
@@ -27,6 +25,8 @@ Under Build and deployment > Branch, select main (or master) / /(root).
 Click Save.
 
 Wait: In about 60 seconds, a link will appear at the top of that page. That is your App URL.
+
+______________________________________________________________________________________________________________________________________________________________
 
 🛠️ How to Update the Itinerary
 
