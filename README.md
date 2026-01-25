@@ -2,7 +2,7 @@ Japan 2026 Family Dashboard
 
 🔗 Live Site
 
-[Jap App](https://james-bonaguro.github.io/Japan.html)
+[Jap App](https://james-bonaguro.github.io/Japan/)
 
 🚀 How to Launch This (First Time Setup)
 
