@@ -4,7 +4,7 @@ A unified, mobile-friendly itinerary dashboard for the 2026 family trip to Tokyo
 
 🔗 Live Link
 
-[[Insert your GitHub Pages Link Here](https://james-bonaguro.github.io/Broker/Japan.html)
+[Insert your GitHub Pages Link Here](https://james-bonaguro.github.io/Japan.html)
 
 📱 How to Use
 
