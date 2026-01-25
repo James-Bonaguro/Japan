@@ -1,63 +1,78 @@
-🇯🇵 Japan 2026 Family Dashboard
-
-A unified, mobile-friendly itinerary dashboard for the 2026 family trip to Tokyo, Hiroshima, Kyoto, and Osaka.
-
-🔗 Live Link
-
 [Jap App](https://james-bonaguro.github.io/Japan.html)
 
-📱 How to Use
+Japan 2026 Family Dashboard
 
-Open the Link on your phone.
+🔗 Live Site
 
-Select your Squad at the top (e.g., "Parents", "The Bros", "Patricia") to filter the view.
+[LINK GOES HERE ONCE GENERATED] (e.g., https://www.google.com/search?q=https://yourusername.github.io/japan-trip)
 
-Scroll to see the timeline, reservations, and flight info.
+🚀 How to Launch This (First Time Setup)
+
+You have split the code into 3 clean files: index.html, styles.css, and script.js.
+
+Create Repo: Go to GitHub.com and create a new Public repository (e.g., japan-2026).
+
+Upload: Click Add file > Upload files.
+
+Drag & Drop: Drag index.html, styles.css, and script.js into the box. Commit changes.
+
+Activate Website:
+
+Go to Settings (tab at the top).
+
+Click Pages (sidebar on the left).
+
+Under Build and deployment > Branch, select main (or master) / /(root).
+
+Click Save.
+
+Wait: In about 60 seconds, a link will appear at the top of that page. That is your App URL.
+
+🛠️ How to Update the Itinerary
+
+You only need to edit one file: script.js.
+
+1. To Change a Status (e.g., "Need to Book" -> "Confirmed")
+
+Open script.js in GitHub (click the Pencil icon).
+
+Find the event in the ITINERARY_DATA list.
+
+Change status: STATUS.TO_BOOK to status: STATUS.CONFIRMED.
+
+2. To Add a New Event
+
+Copy and paste this block into the events array for the correct day:
+
+{ 
+    time: '7:00 PM', 
+    title: 'New Dinner Spot', 
+    type: 'utensils', // Options: plane, train, hotel, utensils, shopping-bag, beer, map-pin
+    squad: [SQUADS.ALL], // Options: SQUADS.ALL, SQUADS.BROTHERS, SQUADS.PARENTS_AMG, etc.
+    status: STATUS.TO_BOOK, 
+    details: 'Notes go here.', 
+    location: 'Shinjuku' 
+},
 
 
-Offline Mode: If you save the page or keep the tab open, it will largely work offline (though map links/external images need data).
+3. Squad Keys (Who sees what?)
 
+SQUADS.ALL = Everyone sees it.
 
+SQUADS.PARENTS_AMG = Ron, Sheila, Anne Marie.
 
+SQUADS.BROTHERS = Big Jim, Little Mike.
 
-_________________________________________________________________________________________________________________________________________
+SQUADS.PATRICIA = Patricia (Marathon view).
 
-🛠️ For the "Admin" (Big Jim)
+SQUADS.MT = MT.
 
-This is a Single-File Application. There is no database and no backend server.
+📱 Offline Use
 
-How to Update the Itinerary:
+If the internet is spotty in Japan:
 
-Open JapanDashboard.html in any text editor (VS Code, Notepad++, etc.).
+Open the website on your phone while you have WiFi.
 
-Scroll down to the script section where you see const ITINERARY_DATA.
+Keep the tab open.
 
-Edit the text directly.
-
-Status: Change status: STATUS.TO_BOOK to status: STATUS.CONFIRMED.
-
-Details: Update times, booking numbers, or notes.
-
-Save the file and push to GitHub. The website updates automatically.
-
-Squad Keys:
-
-SQUADS.ALL: Everyone
-
-SQUADS.PARENTS_AMG: Ron, Sheila, Anne Marie
-
-SQUADS.BROTHERS: Big Jim, Little Mike
-
-SQUADS.PATRICIA: Patricia (Marathoner)
-
-SQUADS.MT: MT
-
-🧰 Tech Stack
-
-HTML5: Structure
-
-Tailwind CSS (CDN): Styling
-
-Lucide Icons: Visuals
-
-Vanilla JS: Logic (No React build step required)
+The data is loaded into the browser, so it will mostly work even if you lose signal (external links/maps won't work, but the timeline will).
