@@ -4,7 +4,7 @@ A unified, mobile-friendly itinerary dashboard for the 2026 family trip to Tokyo
 
 🔗 Live Link
 
-[Insert your GitHub Pages Link Here](https://james-bonaguro.github.io/Japan.html)
+[Jap App](https://james-bonaguro.github.io/Japan.html)
 
 📱 How to Use
 
@@ -14,7 +14,13 @@ Select your Squad at the top (e.g., "Parents", "The Bros", "Patricia") to filter
 
 Scroll to see the timeline, reservations, and flight info.
 
+
 Offline Mode: If you save the page or keep the tab open, it will largely work offline (though map links/external images need data).
+
+
+
+
+_________________________________________________________________________________________________________________________________________
 
 🛠️ For the "Admin" (Big Jim)
 
